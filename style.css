@@ -1,0 +1,118 @@
+/*                           TAG SELECTORS                                    */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 5.65rem;
+  margin: 0;
+}
+
+h3 {
+  color: #11999E;
+}
+
+
+hr {
+  border:none;
+  border-top:8px dotted grey;
+  width:20%;
+  margin-bottom: 30px;
+}
+
+/*----------------------------CLASS SELECTORS---------------------------------*/
+.heading {
+  background-color: #007880;
+  color: white;
+  /*font-family: 'Comfortaa', cursive;*/
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.first-para {
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+}
+
+.profile-photo {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.skills{
+  margin: 100px auto 100px auto;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+  line-height: 2;
+}
+
+.skill-image {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  height:150px;
+
+}
+
+.skill-image2 {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+    height:150px;
+
+}
+
+.contact-me {
+  margin: 100px auto 100px auto;
+}
+
+.bottom-container {
+
+  background-color: #007880;
+  color: white;
+  padding: 50px 0 50px 0;
+
+}
+
+.footer-link {
+
+  color: #32dbc6;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 10px;
+
+}
+
+.footer-link:hover {
+
+  color: white;
+}
+
+
+
+/*----------------------------ID SELECTORS------------------------------------*/
+#top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+#right-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
