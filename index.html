@@ -1,25 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>🚀 Richard Green</title>
-  </head>
-  <body>
 
-    <centre>
-      <br />
-      <h1> A little about me...</h1>
-      <br>
-      <p>Hello and welcome to my personal site. I created this site to share information about myself and my skills.
-        Please contact me if you have any questions.</p>
-      <hr>
-      <br>
-      <h2>Academics</h2>
-      <br>
-      <h2>Employment History</h2>
-      <br>
-      <h2>Hobbies</h2>
-    </centre>
+<head>
+  <meta charset="utf-8">
 
-  </body>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Ubuntu" rel="stylesheet">
+
+  <title>Richard Green</title>
+</head>
+
+<body>
+
+  <div class="heading">
+    <img src="images/cloud.png" id="top-cloud" alt="cloud">
+    <h1>I'm Richard.</h1>
+    <p class="first-para">A developer.</p>
+    <img src="images/cloud.png" id="right-cloud" alt="cloud">
+    <img src="images/mountain.png" alt="mountain" onclick="myFunction()">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-photo" src="https://image.flaticon.com/icons/svg/701/701993.svg" alt="man">
+      <h2>Hi.</h2>
+      <p>I'm Richard and I love coding. I created this personal site to share some of my skills and experience (and hope its a little less boring than the usual CV).</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills & Experience.</h2>
+      <div class="skill-row">
+        <img class="skill-image" src="https://image.flaticon.com/icons/svg/1321/1321016.svg" alt="it-crowd">
+        <h3>Qualifications & Employment History</h3>
+        <p>This section contains a list of my qualifications and employment history.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-image2" src="https://image.flaticon.com/icons/svg/1197/1197460.svg" alt="computer">
+        <h3>Code Experience & Projects</h3>
+        <p>This section describes developement languages I have knowledge with and project examples.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Ways to Reach Me</h3>
+      <p>Please feel free to contact me with any questions via email.</p>
+      <a class="btn" href="mailto:r_greener2005@hotmail.co.uk">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
+    <p>© 2018 Richard Green.</p>
+  </div>
+
+
+  <script type="text/javascript">
+    var x = document.getElementById("top-cloud");
+
+
+    function myFunction() {
+      x.style.display = "none";
+    }
+  </script>
+
+</body>
+
 </html>
